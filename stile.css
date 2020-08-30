@@ -1,0 +1,44 @@
+canvas{
+    border: solid black 10px;
+}
+h1{
+    font-family: Impact;
+    color: crimson;
+    font-size: 100px;
+    text-align: center;
+    animation-name: colore;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0C0C0C;
+}
+button{
+    background-color: crimson;
+    width: 400px;
+    height: 60px;
+    font-family: Impact;
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: relative;
+}
+#topper{
+    width: window;
+    background-color: black;
+    text-align: center;
+}
+#game{
+    text-align: center;
+}
+
+@keyframes colore{
+    from{color: crimson;}
+    to{color: darkred;}
+}
