@@ -12,6 +12,16 @@ h1{
     animation-duration: 2s;
     animation-timing-function: linear;
 }
+h2{
+    font-family: Impact;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 40px;
+}
+ul{
+    color: white;
+}
+
 body{
     margin: 0px;
     padding: 0px;
